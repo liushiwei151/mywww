@@ -65,6 +65,7 @@ interface SubScript {
 @Component
 export default class ThreeLevelLinkage extends Vue {
   @Emit('Cevent') Cevents(e: string | CityContent) {
+    console.log(e);
   }
 
   @Prop() showVal!: boolean | CityContent;
