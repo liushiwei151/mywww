@@ -24,7 +24,7 @@ module.exports = {
     config
       .plugin('html')
       .tap(args => {
-        args[0].title = '流逝之光的个人网站';
+        args[0].title = '流逝之光';
         return args;
       });
   },
