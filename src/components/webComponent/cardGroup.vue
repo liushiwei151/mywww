@@ -1,17 +1,17 @@
 <template>
-  <div class="home">
-    <card-group></card-group>
+  <div class="cardGroup">
+    <card></card>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import cardGroup from "../components/webComponent/cardGroup.vue";
+import card from "./card.vue";
 @Component({
   components: {
-    cardGroup
+    card
   }
 })
-export default class Home extends Vue {}
+export default class CardGroup extends Vue {}
 </script>
 <style lang="less" scoped></style>

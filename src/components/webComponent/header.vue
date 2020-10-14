@@ -79,6 +79,7 @@ export default class Header extends Vue {
   right: 0;
   width: 100%;
   background: black;
+  z-index: 100;
   .activeTitle {
     background: rgba(255, 255, 255, 0.3);
     color: #fff;
