@@ -59,7 +59,6 @@ export default class Web extends Vue {
 <style lang="less" scoped>
 .content {
   width: 1200px;
-  height: 3000px;
   position: relative;
   top: 95px;
   margin: 0 auto;
@@ -67,10 +66,9 @@ export default class Web extends Vue {
   justify-content: space-between;
   .contentCenter {
     width: 900px;
-    background: yellow;
   }
   .information {
-    width: 250px;
+    width: 260px;
     box-sizing: border-box;
   }
 }

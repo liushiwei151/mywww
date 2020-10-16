@@ -46,6 +46,7 @@ export default class WebBg extends Vue {
     box.appendChild(this.renderer.domElement);
 
     window.addEventListener("resize", this.onWindowResize, false);
+    document.addEventListener("mousemove", this.onDocumentMouseMove, false);
   }
   //创建背景
   createBg() {
